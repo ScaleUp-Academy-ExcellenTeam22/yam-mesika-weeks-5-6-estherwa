@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     # FUNCTION OF Cup_of_join  5.2
     print("Function of 5.2 , result of Cup_of_join function")
-    print(join([3, 4], [2], [9, 8, 3, 1], '@'))
+    print(join([3, 4], [2], [9, 8, 3, 1], sep='@'))
     print("\n")
 
     # piece_of_cake function printing 5.2
