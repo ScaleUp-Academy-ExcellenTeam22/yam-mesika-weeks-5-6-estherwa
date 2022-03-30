@@ -50,9 +50,8 @@ def create_random_date(start, end):
 
 def check_if_monday(date):
     """
-     This function will check if the day generated randomly is monday and will print the following message in case is
-     monday
-     @param:gets a date
+     This function will check if the date gotten is Monday and in that case it will print a message
+     param date: The function gets a parameter of a date.
      @param: message- gets a message in case that the date given is equal to Monday
      """
     if date.isoweekday() == 1:
